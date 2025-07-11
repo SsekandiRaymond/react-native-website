@@ -20,7 +20,7 @@ For more information, see [Apple's documentation](https://developer.apple.com/do
 
 ## Basic Usage
 
-To see the current state, you can check `AppState.currentState`, which will be kept up-to-date. However, `currentState` will be null at launch while `AppState` retrieves it over the bridge.
+To see the current state, you can check `AppState.currentState`, which will be kept up-to-date. However, `currentState` will be null at launch while `AppState` retrieves it over the `bridge for old Architecture` or the `JSI (Javascript Interface) for new Architecture`.
 
 ```SnackPlayer name=AppState%20Example
 import React, {useRef, useState, useEffect} from 'react';
